@@ -1,0 +1,59 @@
+    @keyframes blink {
+        from,
+        to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: red;
+        }
+    }
+    
+    #autotext {
+        border-right: 0.15em solid transparent red;
+        letter-spacing: 0.05em;
+        animation: blink 0.75s step-end infinite;
+    }
+    
+    .élément {}
+    
+    .newDefaultTheme-dateIcon {
+        height: 2.5em;
+        width: 32px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        opacity: 0;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    *,
+     ::after,
+     ::before {
+        box-sizing: border-box;
+    }
+    
+    ul.page-section {
+        list-style: none;
+    }
+    
+    .form-all {
+        color: #02425b;
+    }
+    
+    .form-all {
+        font-size: 16px;
+    }
+    
+    .form-all {
+        font-family: Inter, sans-serif;
+    }
+    
+    body {
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        color: #2c3345;
+    }

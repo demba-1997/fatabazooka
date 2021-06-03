@@ -1,0 +1,9 @@
+[{
+    "login": "adm1@mail.com",
+    "password": "amin1n@1",
+    "role": "ROLE_ADMIN"
+}, {
+    "login": "joueur@mail.com",
+    "password": "joueur@1",
+    "role": "ROLE_JOUEUR"
+}]
